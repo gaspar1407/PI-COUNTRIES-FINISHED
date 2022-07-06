@@ -1,0 +1,48 @@
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.804);
+}
+
+.div-1, .div-2, .div-3{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.div-1:hover, .div-2:hover, .div-3:hover{
+    background-color: #111
+}
+
+#home{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+    
+}
+
+#activity{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+}
+
+#about{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+}
+
+img{
+    width: 25px;
+    border-radius: 100%;
+    float: left;
+    padding: 11px 15px ;
+    display: flex;
+    justify-content: center;
+}
